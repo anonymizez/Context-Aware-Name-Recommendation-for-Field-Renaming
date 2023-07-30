@@ -3,7 +3,7 @@
   - [General Introduction](#General-Introduction)
   - [Contents of the Replication Package](#Contents-of-the-Replication-Package)
   - [Requirements](#Requirements)
-  - [Data](#Data)
+  - [Dataset](#Dataset)
   - [How to Replicate the Evaluation?](#How-to-Replicate-the-Evaluation)
 
   # General Introduction
@@ -19,11 +19,16 @@
   /Intellij_IDEATest: The implementation of the evaluated Intellij_IDEATest.
 
   /CARERTest: The implementation of the evaluated our proposed approach(CARER).
-  
+
   # Requirements
 
   - Java 17.0.7 or newer
   - Pyhton 3.9.0 or newer, 'tokenizers>=0.12'
+
+
+  # Dataset
+
+  Using *RefactoringMiner* to mine field renaming refactorings from real projects.
 
   # How to Replicate the Evaluation?
 
